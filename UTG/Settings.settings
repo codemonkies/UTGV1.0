@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UTG" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UnitBinariesDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\NUnit 2.5.10\bin\net-2.0\framework</Value>
+    </Setting>
+    <Setting Name="UnitConsoleDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\NUnit 2.5.10\bin\net-2.0</Value>
+    </Setting>
+    <Setting Name="UnitCommandsDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\NUnit 2.5.10\bin\net-2.0</Value>
+    </Setting>
+    <Setting Name="Tab" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="CoverageConsoleDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CoverageCommandsDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CoverageBinariesDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

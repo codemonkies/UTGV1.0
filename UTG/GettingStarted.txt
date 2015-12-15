@@ -1,0 +1,42 @@
+﻿Prerequisites: Download and install NUnit (http://nunit.org/?p=download) and Partcover (http://code.google.com/p/msysgit/downloads/list) or OpenCover(https://github.com/sawilde/opencover). Note that 
+in some cases you will need to build the 3ed party framework locally before you can use them on your machine. 
+
+Please follow these steps carefully.
+
+1- Download the source code for NMate or get latest version if you have not done so yet. Use an svn client (like visualsvn) to download your copy. 
+2- Open Visual Studio. Update the Settings.settings file so that it reflects your environment configuration and location of 3ed party application exe's and library files 
+like those for nunit and part cover. 
+3- Compile the source code. There is a solution file provided for you that will include all project files. 
+4- Place the Addin file 'UTG - For Testing.AddIn' provided with the source for VS2008 in the Addins folder. 
+
+For VS2005 and VS2008:
+Under C:\Documents and Settings\YourUserName\My Documents\Visual Studio 2008\Addins. (or 2005)
+
+For VS2010:
+Open up VS2010 -> Tools -> Options -> Environment -> Add-In/Macro Security and place the file in one of Addins folders or create your own folder.
+For VS2010 edit the .AddIn file so that it contains these 2 elements instead:
+
+	<HostApplication>
+		<Name>Microsoft Visual Studio Macros</Name>
+		<Version>10.0</Version>
+	</HostApplication>
+	<HostApplication>
+		<Name>Microsoft Visual Studio</Name>
+		<Version>10.0</Version>
+	</HostApplication>
+
+
+5- Edit this file using a text editor and modify the following entry to match the location on your hard-disk: 
+
+<assembly>
+C:\Documents and Settings\...\UTG\bin\UTG.dll
+</assembly>
+
+Make sure the location you provide matches the output location for UTG.dll resulting from your compilation. 
+
+6- Select Addin Manager from the Tools menu in Visual Studio. You should by now have UTG as an option. Select at least the first 2 check boxes for UTG. 
+7- Close and re-open Visual Studio. You must do this so that Visual Studio can pick up this change you just made. Any time you wish to enable or disable the Addin, you must check or uncheck the Addin then close and reopen visual studio.
+
+
+To insure that everything is working as expected create any good old library with one class in it. Add a method to this class. Right click on the method and check to see if the option to create a unit test is available to you. 
+NOTE: If you modify any of the source code from an IDE which has NMate loaded already (has it checked in Addin Manager) then you will need to un-check it, close VS, open VS make changes, then compile your changes, before reopening VS and enableing the Addin once again. 

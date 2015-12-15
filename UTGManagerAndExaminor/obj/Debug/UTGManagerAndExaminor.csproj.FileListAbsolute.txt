@@ -1,0 +1,7 @@
+C:\Users\Samir Yasin\Documents\Visual Studio 2012\Projects\nmate\trunk\UTGManagerAndExaminor\bin\Debug\UTGManagerAndExaminor.dll
+C:\Users\Samir Yasin\Documents\Visual Studio 2012\Projects\nmate\trunk\UTGManagerAndExaminor\bin\Debug\UTGManagerAndExaminor.pdb
+C:\Users\Samir Yasin\Documents\Visual Studio 2012\Projects\nmate\trunk\UTGManagerAndExaminor\bin\Debug\UTGHelper.dll
+C:\Users\Samir Yasin\Documents\Visual Studio 2012\Projects\nmate\trunk\UTGManagerAndExaminor\bin\Debug\UTGHelper.pdb
+C:\Users\Samir Yasin\Documents\Visual Studio 2012\Projects\nmate\trunk\UTGManagerAndExaminor\obj\Debug\UTGManagerAndExaminor.csprojResolveAssemblyReference.cache
+C:\Users\Samir Yasin\Documents\Visual Studio 2012\Projects\nmate\trunk\UTGManagerAndExaminor\obj\Debug\UTGManagerAndExaminor.dll
+C:\Users\Samir Yasin\Documents\Visual Studio 2012\Projects\nmate\trunk\UTGManagerAndExaminor\obj\Debug\UTGManagerAndExaminor.pdb
